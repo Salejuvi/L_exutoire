@@ -15,14 +15,6 @@
 
 		<!-- Style de la page -->
 		<!-- <link rel="stylesheet" href="css/style.css"/>-->
-		<!--<style>
-		#imbackhead {
-			background-image: url('images/Fond_entete.png');
-			background-repeat: no-repeat;
-			background-attachment: fixed; 
-			background-size: 100% 100%;
-		}
-		</style>-->
 
 		<style>
 		#imbackhead {
@@ -34,6 +26,12 @@
 		.dropdown {
 			position: inherit;
 			right: 50px;
+		}
+		#imbackfoot {
+			background-image: url('images/Fond_entete.png');
+			background-repeat: no-repeat;
+			background-attachment: fixed; 
+			background-size: 1920px 200px;
 		}
 
 		</style>
@@ -57,12 +55,7 @@
 		    		<span class="navbar-toggler-icon"></span>
 		    	</button>
 
-				<!-- <div class="row">
-				    <div id="imbackhead" class="col-sm-12 col-md-12 col-lg-12">
-				        <img src="images/Fond_entete.png" alt="Image entête/Pied" style="width: 1920px; height: 200px">
-					</div>
-				</div> -->
-				
+				<!-- Boutton MENU -->
 				<div class="dropdown">
 					<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<img src="images/menu.png" alt="Menu" width="50%">
@@ -96,11 +89,24 @@
 		
 		<!-- Pied de page -->
 		<footer class="container-fluid" style="position:fixed; bottom:0; left:0; margin-top: 90px; padding: 0">
-			<div class="row">
+			<nav id="imbackfoot" class="navbar navbar-expand-md fixed-top">
+				<a class="navbar-brand" href="#">
+		    		<img src="images/logohautgauche.png" alt="Logo entête L'éxutoire" width="80%">
+		    	</a>
+		    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		    		<span class="navbar-toggler-icon"></span>
+		    	</button>
+			<!-- <div class="row">
 			    <div id="imbackfoot" class="col-sm-12 col-md-12 col-lg-12">
 			        <img src="images/Fond_entete.png" alt="Image entête/Pied" style="width: 1920px; height: 200px">
+			        <button class="dropdown-item" type="button">
+						<a class="navbar-brand" href="#">
+		    				<img src="images/logoinstagram.png" alt="Insta" width="80%">
+		    			</a>
+					</button>
 				</div>
-			</div>
+			</div> -->
+			</nav>
 		</footer>
 
 		<!-- scripts bootstrap -->
