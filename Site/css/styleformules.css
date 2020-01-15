@@ -1,0 +1,76 @@
+.cadre{
+	width:100%;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	border-radius:10px;
+	border:solid 2pt black;
+	background-color: white;
+	margin-top: 20px;
+	font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	text-align: center;
+	}
+
+
+.body{
+	background-color: #C0C0C0;
+}
+
+
+.cadremajeur{
+
+	color:#C32518;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Impact;
+
+}
+
+
+.cadrereserve{
+	width:100%;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	border-radius:10px;
+	border:solid 2pt black;
+	background-color: black;
+	color:white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+
+.cadrecontact{
+	width:100%;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	border-radius:10px;
+	border:solid 2pt black;
+	background-color: black;
+	color:white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.cadretherapie{
+	width:100%;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	border-radius:10px;
+	border:solid 2pt black;
+	background-color: #C32518;
+	color:black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: center;
+	font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+}
+
+

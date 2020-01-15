@@ -1,0 +1,23 @@
+
+#concept{
+	text-align: right;
+}
+
+#bar{
+	text-align: right;
+}
+#identite{
+	background-color: grey;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin-top: 5px;
+}
+#titre{
+	text-align: center;
+}
+
+#image{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

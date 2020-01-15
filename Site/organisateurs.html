@@ -7,8 +7,68 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="CSS/style_organisateur.css">
 
+        <!-- Style pour en entête et pied de page -->
+        <style>
+        .imback {
+            background-image: url('images/Fond_entete.png');
+            background-repeat: no-repeat;
+            background-size: 1920px 200px;
+        }
+        </style>
+
+
 </head>
 <body>
+
+	<!-- Entête -->
+        <header class="container-fluid" style="padding: 0">
+
+            <nav  class="imback">
+
+                <div class="row align-items-end">
+                    <div class="col-md-10 text-left">
+                        <a class="navbar-brand" href="accueil.html">
+                            <img class="img-fluid" src="images/logohautgauche.png" alt="Logo entête L'éxutoire" width="80%">
+                        </a>
+                    </div>
+
+                        <!-- Boutton MENU -->
+                    <div class="col-md-2 text-right">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <img class="img-fluid float-right" src="images/menu.png" alt="Menu" width="70%">
+                        </button>
+
+                        <div class="dropdown">
+
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <li class="dropdown-item" type="button">
+                                    <a href="accueil.html">Accueil</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="description.html">Le concept</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="séance.html">La séance</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="formules.html">Les formules</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="page_réservation.html">Réservations</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="organisateurs.html">Nous contacter</a>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12">
@@ -21,36 +81,43 @@
 
 			<div class="col-sm-12 col-md-6 col-lg-3">
 				<div id="cadre">
-					<a href="">
+					<a href="cv/cv_alex/indexCV.html" target="_blank">
 						<img id="identite" class="img-fluid" src="images/alex.png" alt="illustration du guerrier Alex">
 					</a>
 					
 				</div>
 				<div>
-					<p id="texte">Alex "le futé"</p>
+					<a href="cv/cv_alex/indexCV.html" target="_blank"> 
+						<p id="texte">Alex "le futé"</p>
+					</a>
 				</div>	
 			</div>
 
 			<div class="col-sm-12 col-md-6 col-lg-3">
 				<div id="cadre">
-					<a href="">
+					<a href="cv/cv_vincent/index.html" target="_blank">
 						<img id="identite"  class="img-fluid" src="images/vincent.png" alt="illustration du guerrier Vincent">
 					</a>			
 				</div>
 				<div>
-					<p id="texte">Vincent "la droiture"</p>
+					<a href="cv/cv_vincent/index.html" target="_blank"> 
+						<p id="texte">Vincent "la droiture"</p>
+					</a>
 				</div>
 			</div>
 
 			<div class="col-sm-12 col-md-6 col-lg-3">
 				<div id="cadre">
-					<a href="">
+					<a href="cv/cv_julien/index.html" target="_blank">
 						<img id="identite"  class="img-fluid" src="images/julien.png" alt="illustration du guerrier Julien">
 					</a>
 					
 				</div>
 				<div>
-					<p id="texte">Julien "le rock"</p>	
+					<a href="cv/cv_julien/index.html" target="_blank">
+						<p id="texte">Julien "le rock"</p>
+					</a>
+						
 				</div>
 			</div>
 
@@ -62,19 +129,43 @@
 					
 				</div>
 				<div>
-					<p id="texte">Sandra "le bélier"</p>
+					<a href="cv/cv_sandra/index.html" target="_blank"> 
+						<p id="texte">Sandra "le bélier"</p>
+					</a>
+					
 				</div>	
-			</div>
-		</div>
-
-			<!--pied de page-->
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Pied de page</h2>
 			</div>
 		</div>
 		
 	</div>
 
+	<!-- Pied de page -->
+    <footer class="container-fluid imback bg-secondary" style="bottom:0; left:0; padding: 15px;  position: fixed;">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logobaspage.png" alt="Logo Exutoire Pied" width="80%">
+                </a>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logoinstagram.png" alt="Logo insta" width="80%">
+                </a>
+          
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logotwitter.png" alt="Logo insta" width="80%">
+                </a>
+           
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logofacebook.png" alt="Logo insta" width="80%">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

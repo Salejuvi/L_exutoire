@@ -1,38 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NOS FORMULES</title>
+	<title>Nos Formules</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/styleformules.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/styleformules.css">
+
+        <!-- Style pour en entête et pied de page -->
+        <style>
+        .imback {
+            background-image: url('images/Fond_entete.png');
+            background-repeat: no-repeat;
+            background-size: 1920px 200px;
+        }
+        </style>
+
 </head>
-<section>
-	<header>
-		<div id="fondbetontete">
-			<img src="images/fondbetontete.png" alt="fonbetontete">
-		</div>
-		<div id="logohautdroite">
-			<img src="images/logohautdroite.png" alt="logohautdroite">
-		</div>
-		<div id="menu">
-			<img src="images/menu.png" alt="menu">
-		</div>
-		<div id="bandeauhautpage">
-			<img src="images/bandeauhautpage.png" alt="bandeauhautpage">
-		</div>
-	</header>
+
+<body class="body">
+
+	<!-- Entête -->
+        <header class="container-fluid" style="padding: 0">
+
+            <nav  class="imback">
+
+                <div class="row align-items-end">
+                    <div class="col-md-10 text-left">
+                        <a class="navbar-brand" href="accueil.html">
+                            <img class="img-fluid" src="images/logohautgauche.png" alt="Logo entête L'éxutoire" width="80%">
+                        </a>
+                    </div>
+
+                        <!-- Boutton MENU -->
+                    <div class="col-md-2 text-right">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <img class="img-fluid float-right" src="images/menu.png" alt="Menu" width="70%">
+                        </button>
+
+                        <div class="dropdown">
+
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <li class="dropdown-item" type="button">
+                                    <a href="accueil.html">Accueil</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="description.html">Le concept</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="séance.html">La séance</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="formules.html">Les formules</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="page_réservation.html">Réservations</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="organisateurs.html">Nous contacter</a>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
 	
-	<body class="body">		
-		<div class="row justify-content-center">
-			<div class="col-md-6-text-center">
-				<div class="cadremajeur">
-					<h2>L'ACTIVITÉ EST RÉSERVÉE AUX PERSONNES MAJEURES (18 ANS ET PLUS)</h2>
-				</div>	
+<section  class="container-fluid">		
+
+			<div class="row justify-content-center">
+				<div class="col-md-6-text-center">
+					<div class="cadremajeur">
+						<h2>L'ACTIVITÉ EST RÉSERVÉE AUX PERSONNES MAJEURES (18 ANS ET PLUS)</h2>
+					</div>	
+				</div>
 			</div>
-		</div>
-		<div class="container-fluid">
+
 			<div class="row justify-content-center">
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="cadre">
@@ -40,29 +87,35 @@
 					<hr>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
 					</div>
-				<div class="cadrereserve">
-					<h2>RESERVER</h2>
-				</div>
+					<div class="cadrereserve">
+						<a href="page_réservation.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">	RESERVER</button>
+						</a>
+					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="cadre">
-						<h3>Le Garage du Beau-Pere</h3>
+						<h3>Garage du Beau-Pere</h3>
 					<hr>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>	
 					</div>
-				<div class="cadrereserve">
-					<h2>RESERVER</h2>
-				</div>	
+					<div class="cadrereserve">
+						<a href="page_réservation.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">RESERVER</button>
+						</a>
+					</div>	
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="cadre">
-						<h3>Le Salon de la Belle-Mere</h3>
+						<h3>Salon de Belle-Mere</h3>
 					<hr>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
 					</div>
-				<div class="cadrereserve">
-					<h2>RESERVER</h2>
-				</div>
+					<div class="cadrereserve">
+						<a href="page_réservation.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">RESERVER</button>
+						</a>
+					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">		
 					<div class="cadre">
@@ -70,21 +123,26 @@
 					<hr>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
 					</div>
-				<div class="cadrereserve">
-					<h2>RESERVER</h2>
-				</div>	
+					<div class="cadrereserve">
+						<a href="page_réservation.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">RESERVER</button>
+						</a>
+					</div>	
 				</div>
-			</div>	
+			</div>
+
 			<div class="row justify-content-center">			
 				<div class="col-sm-4 col-md-3 col-lg-2">	
 					<div class="cadre">
-						<h3>La Chambre du Frangin</h3>
+						<h3>Chambre du Frangin</h3>
 					<hr>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
 					</div>
-				<div class="cadrereserve">
-					<h2>RESERVER</h2>
-				</div>	
+					<div class="cadrereserve">
+						<a href="page_réservation.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">RESERVER</button>
+						</a>
+					</div>	
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">		
 					<div class="cadre">
@@ -92,9 +150,11 @@
 					<hr>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
 					</div>
-				<div class="cadrereserve">
-					<h2>RESERVER</h2>
-				</div>	
+					<div class="cadrereserve">
+						<a href="page_réservation.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">	RESERVER</button>
+						</a>
+					</div>	
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="cadre">
@@ -102,9 +162,11 @@
 					<hr>	
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
 					</div>
-				<div class="cadrereserve">
-					<h2>RESERVER</h2>
-				</div>	
+					<div class="cadrereserve">
+						<a href="page_réservation.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">RESERVER</button>
+						</a>
+					</div>	
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">			
 					<div class="cadre">
@@ -112,46 +174,61 @@
 					<hr>	
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 	nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
 					</div>
-				<div class="cadrereserve">
-					<button type="button" class="btn btn-secondary btn-lg btn-block">RESERVER</button>
-				</div>	
+					<div class="cadrereserve">
+						<a href="page_réservation.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">RESERVER</button>
+						</a>
+					</div>	
 				</div>
 			</div>
+
 			<div class="row justify-content-center">
-			<div class="col-md-6-text-center ">			
-					<div class="cadretherapie">
-						<h3>Thérapie de Groupe</h3>
-					<hr>	
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 	nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
+				<div class="col-md-4 text-center ">			
+						<div class="cadretherapie">
+							<h3>Thérapie de Groupe</h3>
+						<hr>	
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 	nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad </p>
+						</div>
+					<div class="cadrecontact">
+						<a href="organisateurs.html">
+							<button type="button" class="btn btn-secondary btn-lg btn-block">	CONTACTEZ-NOUS!</button>
+						</a>
 					</div>
-			<div class="cadrecontact">
-					<h2>Contacter-nous</h2>
+				</div>
 			</div>
-			</div>
-		</div>
-	</body>
-
-	<footer>
-		<div id="bandeaubaspage">
-			<img src="images/bandeaubaspage.png" alt="bandeaubaspage">
-		</div>
-		<div id="fondbetonbas">
-			<img src="images/fondbetonbas.png" alt="fondbetonbas">
-		</div>
-		<div id="logobasdroite">
-			<img src="images/logobasdroite.png" alt="logobasdroite">
-		</div>
-		<div id="logofacebook">
-			<img src="images/logofacebook.png" alt="logofacebook">
-		</div>
-		<div id="logoinstagram">
-			<img src="images/logoinstagram.png" alt="logoinstagram">
-		</div>
-		<div id="logotwitter">
-			<img src="images/logotwitter.png" alt="logotwitter">
-		</div>
-	</footer>
-
+			
 </section>
 
+	<!-- Pied de page -->
+    <footer class="container-fluid imback bg-secondary" style="bottom:0; left:0; padding: 15px;  ">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logobaspage.png" alt="Logo Exutoire Pied" width="80%">
+                </a>
+            </div>
+       
+            <div class="col-md-6 text-center">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logoinstagram.png" alt="Logo insta" width="80%">
+                </a>
+          
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logotwitter.png" alt="Logo insta" width="80%">
+                </a>
+           
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logofacebook.png" alt="Logo insta" width="80%">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
 </html>

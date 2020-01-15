@@ -9,22 +9,230 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" type="text/CSS" href="css/css_accueil/style.css">
+
+        <!-- Style pour en entête et pied de page -->
+        <style>
+        .imback {
+            background-image: url('images/Fond_entete.png');
+            background-repeat: no-repeat; 
+            background-size: 1920px 200px;
+        }
+        </style>
     
     </head>
     <body>
-        
-        <div class="container-fluid">
-            <div class="row">
-                <div id="Cube1" class="col-md-6">
-                    <img src="images/logoconcept.png">
-                </div>
-                <div id="Cube2" class="col-md-6">test</div>
-            </div>
-        </div>
-        
+        <!-- Entête -->
+        <header class="container-fluid" style="padding: 0">
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <nav  class="imback">
+
+                <div class="row align-items-end">
+                    <div class="col-md-10 text-left">
+                        <a class="navbar-brand" href="accueil.html">
+                            <img class="img-fluid" src="images/logohautgauche.png" alt="Logo entête L'éxutoire" width="80%">
+                        </a>
+                    </div>
+
+                        <!-- Boutton MENU -->
+                    <div class="col-md-2 text-right">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <img class="img-fluid float-right" src="images/menu.png" alt="Menu" width="70%">
+                        </button>
+
+                        <div class="dropdown">
+
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <li class="dropdown-item" type="button">
+                                    <a href="accueil.html">Accueil</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="description.html">Le concept</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="séance.html">La séance</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="formules.html">Les formules</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="page_réservation.html">Réservations</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="organisateurs.html">Nous contacter</a>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+
+            <section class="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-fluid" src="images/bandeauhautpage.png">
+                        <img id="P1" class="img-fluid" src="images/photofondecranaccueil.png">
+                        </div>
+                </div>
+            </section>
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div id="Cube1" class="col-md-6 col-md-md-6">
+                            <a href="description.html">
+                                <img id="ImgCubes" class="img-fluid" src="images/logoconcept.png" alt="Image Armes">
+                            </a>
+                        </div>
+                        <div id="Cube2" class="col-md-6">
+                            <h3 id="TitresCubes">Concept:</h3>
+                            <p id="TextCubes">L’exutoire est la nouvelle salle de défoulement qui ouvre sur Le Mans. Le concept: cassez ce que vous voulez avec une arme au choix : batte de base-ball, masse... Le tout dans un environnement et une tenue sécurisée. L’activité est réservée aux personnes majeurs !</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div id="Cube2" class="col-md-6 ">
+                            <h3 id="TitresCubes">Formules:</h3>
+                            <p id="TextCubes">Différentes formules sont là pour représenter un univers, ou un lieu que vous souhaitez exploser ! Vous ne supportez plus votre belle-mère ? Alors venez détruire son salon ! Votre patron vous insupporte ? Nous vous invitons à casser son bureau !</p>
+                        </div>
+                        <div id="Cube1" class="col-md-6">
+                            <a href="formules.html">
+                                <img id="ImgCubes" class="img-fluid" src="images/armesformules.png" alt="Image Armes">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div id="Cube1" class="col-md-6">
+                            <a href="séance.html">
+                                <img id="ImgCubes" class="img-fluid" src="images/bar.png">
+                            </a>                  
+                        </div>
+                        <div id="Cube2" class= "col-md-6">
+                            <h3 id="TitresCubes">Séances:</h3>
+                            <p id="TextCubes">Tu connais le rapport entre ton stress, une pratique éco-responsable assez intense et une bière ? Non ? Alors tu as besoin de venir chez nous !</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div id="Contact" class="col-md-12">
+                            <a href="organisateurs.html">
+                                <img id="ImgCtc" class="img-fluid" src="images/logomilieu.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div id="Partenaires" class="col-md-12">
+                            <h2 id="TitlePartenaires">A QUI LE TOUR ?</h2>
+                                <div id="Carousel1" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="https://www.fnac.com/?&esl-k=sem-google%7cng%7cc81084797558%7cme%7cksite%20fnac%7cp%7ct%7cdc%7ca4493750198%7cg115821278&Origin=EF_GOOGLE_FNAC_&gclid=CjwKCAiAx_DwBRAfEiwA3vwZYqPLr4wR3ucylIuW6lZ44zp53wAfM2DvAGZzRvKvPFQcKHTHTFSxehoCtbcQAvD_BwE&gclsrc=aw.ds">
+                                            <img id="Slide" class="img-fluid" src="images/logofnac.png" class="d-block w-50px" alt="Test">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://m.lemans.sarthe.cci.fr/creation-reprise-et-cession-dentreprise/creer-son-entreprise/la-ruche-numerique">
+                                            <img id="Slide" class="img-fluid" src="images/logolaruche.png" class="d-block w-50px" alt="Test">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://www.maisonsdumonde.com/FR/fr/?gclid=CjwKCAiAx_DwBRAfEiwA3vwZYjPkzZaRQe7uoTJwOKlTgJNibaT5IZZ3ytMSC-TUgoaxaJtXwJCpgRoClKMQAvD_BwE">
+                                            <img id="Slide" class="img-fluid" src="images/logomaisondumonde.png" class="d-block w-50px" alt="Test">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="https://www.truffaut.com/evenements-truffaut/soldes/Pages/evenement-soldes.aspx?gclid=CjwKCAiAx_DwBRAfEiwA3vwZYr0yQzFNpffOnFYiH2WRQpe5e4MV7zMirKUMvWX88VkiEgZvKCcRnRoCb10QAvD_BwE#cmpint__MEAhome_p1_Soldeshiver_2020_s2">
+                                            <img id="Slide" class="img-fluid" src="images/logotruffault.png" class="d-block w-50px" alt="Test">
+                                        </a>
+                                    </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            <p id="TextPartenaires">Voici quelques entreprises qui ont osé nous faire confiance. Pourquoi pas vous? </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div id="Map" class="col-md-4">
+                            <iframe class="img-fluid" id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2670.2339902763415!2d0.19286341588111122!3d47.989864969415976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e28f3a93da8223%3A0xad45b9494c9acfbd!2s23%20Ruelle%20de%20l&#39;Abattoir%2C%2072100%20Le%20Mans!5e0!3m2!1sfr!2sfr!4v1578989307506!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                        <div id="NousCtc" class="col-md-4">
+                            <h3 id="TitreBas">Nous trouver</h3>
+                            <p id="Adresse">02 47 19 18 32</p>
+                            <p id="Adresse">23 Ruelle de l'Abattoir</p>
+                            <p id="Adresse">72100, Le Mans</p>
+                        </div>
+                        <div id="Horaires" class="col-md-4">
+                            <h4 id="TitleBas">Horaires:</h4>
+                            <p id="horaires">Du Lundi au Vendredi:</p>
+                            <p id="horaires">de 10h à 20h</p>
+                            <p id="horaires">Le Samedi:</p>
+                            <p id="horaires">de 11h à 22h</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <img class="img-fluid" src="images/bandeaubaspage.png">
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- Pied de page -->
+                <footer class="container-fluid imback bg-secondary" style="bottom:0; left:0; padding: 15px;  ">
+           
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center">
+                            <a class="navbar-brand" href="#">
+                                <img class="img-fluid" src="images/logobaspage.png" alt="Logo Exutoire Pied" width="80%">
+                            </a>
+                        </div>
+                   
+                        <div class="col-md-6 text-center">
+                            <a class="navbar-brand" href="#">
+                                <img class="img-fluid" src="images/logoinstagram.png" alt="Logo insta" width="80%">
+                            </a>
+                      
+                            <a class="navbar-brand" href="#">
+                                <img class="img-fluid" src="images/logotwitter.png" alt="Logo insta" width="80%">
+                            </a>
+                       
+                            <a class="navbar-brand" href="#">
+                                <img class="img-fluid" src="images/logofacebook.png" alt="Logo insta" width="80%">
+                            </a>
+                        </div>
+                    </div>
+           
+                </footer>
+
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>

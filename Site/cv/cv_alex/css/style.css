@@ -1,0 +1,41 @@
+#photo {
+	position: absolute;
+	top: 20pt;
+	left: 90pt;
+	}
+
+#logo {
+	position: absolute;
+	top: 20pt;
+	right: 90pt;
+	}
+
+.soustitre {
+	color: #e1062b;
+	font-family: comic sans ms;
+	}
+
+.paragraphe {
+	color: #000000;
+	font-family: comic sans ms;
+	}
+
+header {
+	text-align: center;	
+	color: #ffffff;
+	font-family: comic sans ms;
+	}
+
+
+body{
+	background-image:linear-gradient(grey, white);
+	background-repeat: no-repeat;
+	}
+
+
+.marge{ 
+	margin-right: 50pt;
+	margin-left: 50pt;
+	}
+
+	

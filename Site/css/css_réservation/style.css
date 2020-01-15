@@ -1,0 +1,51 @@
+/* Header */
+
+#Top-left {
+    background-color: #525252;
+}
+
+#Top-center {
+    background-color: #525252;
+}
+
+#Top-right {
+    background-color: #525252;
+}
+
+#img-top-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#Titre-top-center {
+    text-align: center;
+    margin-top: 100px;
+    color: #ffffff;
+    font-family: impact;
+}
+
+#img-top-2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#Text-Haut {
+    text-align: center;
+    colo
+}
+
+#Numéro {
+    text-align: center;
+    color: #999999;
+}
+
+#Bouton {
+    margin-top: 50px;
+    margin-left: 50px;
+}

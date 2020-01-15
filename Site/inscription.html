@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inscription</title>
+    <meta name="viewport" content="widht=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="CSS/style_inscription.css">
+
+        <!-- Style pour en entête et pied de page -->
+        <style>
+        .imback {
+            background-image: url('images/Fond_entete.png');
+            background-repeat: no-repeat;
+            background-size: 1920px 200px;
+        }
+        </style>
+
+</head>
+<body>
+
+	<!-- Entête -->
+        <header class="container-fluid" style="padding: 0">
+
+            <nav  class="imback">
+
+                <div class="row align-items-end">
+                    <div class="col-md-10 text-left">
+                        <a class="navbar-brand" href="accueil.html">
+                            <img class="img-fluid" src="images/logohautgauche.png" alt="Logo entête L'éxutoire" width="80%">
+                        </a>
+                    </div>
+
+                        <!-- Boutton MENU -->
+                    <div class="col-md-2 text-right">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <img class="img-fluid float-right" src="images/menu.png" alt="Menu" width="70%">
+                        </button>
+
+                        <div class="dropdown">
+
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <li class="dropdown-item" type="button">
+                                    <a href="accueil.html">Accueil</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="description.html">Le concept</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="séance.html">La séance</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="formules.html">Les formules</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="page_réservation.html">Réservations</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="organisateurs.html">Nous contacter</a>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-6">
+				<div id="inscription">
+					<p>Inscrivez-vous !</p>
+					<p>Pour ne rater rien rater de votre destruction !</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-md-5 col-lg-5">
+				<div class="form-group">
+					<label for="name">
+						<strong>Nom</strong>
+					</label>
+                	<input type="name" class="form-control" id="name" aria-describedby="nameHelp" required>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-5 col-lg-5">
+				<div class="form-group">
+					<label for="firstname">
+						<strong>Prénom</strong>
+					</label>
+	                <input type="firstname" class="form-control" id="firstname" aria-describedby="fisrtnameHelp" required>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-md-5 col-lg-5">
+				<div class="form-group">
+					<label for="numero">
+						<strong>Numéro de téléphone</strong>
+					</label>
+	                <input type="numero" class="form-control" id="email" aria-describedby="numeroHelp" required>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-5 col-lg-5">
+				<div class="form-group">
+					<label for="email">
+						<strong>Email</strong>
+					</label>
+                	<input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                	<small id="emailHelp" class="form-text text-muted">
+                		Votre email ne sera partagé avec personne.
+                	</small>
+				</div>
+			</div>	
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-md-10 col-lg-10">
+				<div class="form-group">
+				    <label for="commentaires"> 
+				    	<strong>Commentaires</strong>
+				    </label>
+				    <textarea class="form-control" id="commentaires"></textarea>
+				  </div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-md-5 col-lg-5">
+				<div class="form-check"> 
+					<input class="form-check-input" type="checkbox" name="defaultCheck1">
+					<label class="form-check-label" for="defaultCheck1"> 
+						<strong>Inscription à la newsletter</strong>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-end">
+	        <div class="col-sm-12 col-md-5 col-lg-5">
+				<a href="accueil.html">
+					<button type="submit" name="Valider" class="btn btn-primary">Valider</button>
+				</a>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- Pied de page -->
+    <footer class="container-fluid imback bg-secondary" style="bottom:0; left:0; padding: 15px;  ">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logobaspage.png" alt="Logo Exutoire Pied" width="80%">
+                </a>
+            </div>
+       
+            <div class="col-md-6 text-center">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logoinstagram.png" alt="Logo insta" width="80%">
+                </a>
+          
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logotwitter.png" alt="Logo insta" width="80%">
+                </a>
+           
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logofacebook.png" alt="Logo insta" width="80%">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

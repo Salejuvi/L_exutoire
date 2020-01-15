@@ -1,0 +1,62 @@
+img {
+    width: 150px;
+    position: absolute;
+    right: 5px;
+    top: 75px;
+
+}
+
+h1 {
+    color: #479338;
+    text-align: center;
+    background-color: #0c110e;
+    opacity: 75%;
+
+}
+
+h2 {
+    text-align: center;
+    color: #e89455;    
+}
+
+h3 {
+    text-align: center;
+    color: #672897;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border: 0;
+}
+
+td {
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+body {
+    background-image: url(../image/test2.jpeg);
+    background-repeat: repeat-x;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+}

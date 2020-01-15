@@ -1,0 +1,6 @@
+.imback {
+	background-image: url('images/Fond_entete.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 1920px 200px;
+}

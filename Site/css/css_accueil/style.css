@@ -1,14 +1,129 @@
+/* Header */
+
+/* 1er Bandeau */
+
 body {
     background-image: url(../../images/photofondecranaccueil.png);
-    background-position: fixed;
+    background-position: sticky;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+#P1 {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/* 2nd bandeau */
+
 #Cube1 {
-    background-color: #857d7d;
-    
+    background-color: #c0c0c0;  
 }
+
 #Cube2 {
     background-color: white;
 }
+
+#ImgCubes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#TitresCubes {
+    text-align: left;
+    font-family: Impact;
+    margin-top: 15px;
+}
+
+#TextCubes {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* 3ème Bandeau */
+
+#Contact {
+    background-color: #525252;
+   
+}
+
+#ImgCtc {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* 4ème bandeau */
+
+#Partenaires {
+    background-color: #ffffff;
+}
+
+#TitlePartenaires {
+    text-align: center;
+    font-family: Impact;
+}
+
+#Slide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#TextPartenaires {
+    text-align: center;
+    
+}
+
+/* 5ème bandeau */
+
+#Map {
+    background-color: #c32518;
+}
+
+#carte {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+#NousCtc {
+    background-color: #c32518;
+}
+
+#TitreBas {
+    color: #ffffff;
+    text-align: left;
+    font-family: Impact;
+    margin-top: 25px;
+}
+
+#Adresse {
+    font-family: Impact;
+    margin-top: 17px;
+}
+
+#Horaires {
+    background-color: #c32518;
+}
+
+#TitleBas {
+    font-family: Impact;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#horaires {
+    font-family: Impact;
+}
+
+/* Footer */
+

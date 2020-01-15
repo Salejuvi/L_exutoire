@@ -1,0 +1,30 @@
+
+.row{
+	text-align: center;
+}
+#cadre{
+	width: 100%;
+	background-color: #c32518;
+	-webkit-border-radius:10px / 10px;
+	-moz-border-radius:10px / 10px;
+	-o-border-radius:10px / 10px;
+	border-radius:10px / 10px;
+	margin-top: auto;
+
+}
+
+
+#identite{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#texte{
+	font-family: Impact;
+	font-size: 24pt;
+	margin-top: 20px;
+	background-color: #c32518;
+	-webkit-border-radius:10px / 10px;
+	-moz-border-radius:10px / 10px;
+	-o-border-radius:10px / 10px;
+	border-radius:10px / 10px;
+}
