@@ -3,10 +3,147 @@
     <head>
         <meta charset="utf-8">
         <title>Réservation L'Exutoire</title>
+        <meta name="viewport" content="widht=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/css_réservation/style.css">
+        <link rel="stylesheet" type="text/css" href="css/headfoot.css">
+
+        <!-- Style pour en entête et pied de page -->
+        <style>
+        .imback {
+            background-image: url('images/Fond_entete.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        </style>
+
     </head>
 
     <body>
-        
 
+    	<!-- Entête -->
+        <header class="container-fluid">
+
+            <nav  class="imback">
+
+                <div class="row align-items-end">
+                    <div class="col-md-10 text-left">
+                        <a class="navbar-brand" href="accueil.html">
+                            <img class="img-fluid" src="images/logohautgauche.png" alt="Logo entête L'éxutoire" width="80%">
+                        </a>
+                    </div>
+
+                        <!-- Boutton MENU -->
+                    <div class="col-md-2 text-right">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <img class="img-fluid float-right" src="images/menu.png" alt="Menu" width="70%">
+                        </button>
+
+                        <div class="dropdown">
+
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <li class="dropdown-item" type="button">
+                                    <a href="accueil.html">Accueil</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="description.html">Le concept</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="séance.html">La séance</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="formules.html">Les formules</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="reservation.html">Réservations</a>
+                                </li>
+                                <li class="dropdown-item" type="button">
+                                    <a href="organisateurs.html">Nous contacter</a>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+		
+		<section class="header">
+			<div class="containerfluid">
+				<div class="row">
+					<div id="Top-left" class="col-4 col-md-4">
+						<img id="img-top-1" class="img-fluid" src="images/armesformules.png">
+					</div>
+					<div id="Top-center" class="col-4 col-md-4">
+						<h2 id="Titre-top-center">Réservation</h2>
+					</div>
+					<div id="Top-right" class="col-4 col-md-4">
+						<img id="img-top-2" class="img-fluid" src="images/armesformules.png">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+		<div id="block_insc" class="container">
+			<div class="row">
+				<div class="col-12 col-md-12">
+					<p id="Text-Haut">Vous êtes ici sur la page de réservation de votre formule.</p>
+					<p id="Text-Haut">Vous pouvez choisir vos horaires et la date de votre venue.</p>
+					<p id="Numéro">Vous pouvez, si vous le souhaitez, réserver par téléphone en appelant au 02 47 19 18 32.</p>
+					<form>
+						<div class="form-row">
+						  	<div class="col-7">
+								<input type="text" class="form-control" placeholder="Date">
+						 	</div>
+						  	<div class="col">
+								<input type="text" class="form-control" placeholder="Heure">
+						  	</div>
+						</div>
+					  </form>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-end">
+	        <div class="col-sm-12 col-md-5 col-lg-5">
+				<a href="inscription.html">
+					<button id="Bouton" type="submit" name="Valider" class="btn btn-primary">Valider</button>
+				</a>
+	        </div>
+	    </div>
+
+	
+	    <!-- Pied de page -->
+        <footer id="footer_res" class="container-fluid imback bg-secondary">
+   
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="images/logobaspage.png" alt="Logo Exutoire Pied" width="80%">
+                    </a>
+                </div>
+           
+                <div class="col-md-6 text-center">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="images/logoinstagram.png" alt="Logo insta" width="80%">
+                    </a>
+              
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="images/logotwitter.png" alt="Logo insta" width="80%">
+                    </a>
+               
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="images/logofacebook.png" alt="Logo insta" width="80%">
+                    </a>
+                </div>
+            </div>
+   
+        </footer>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
