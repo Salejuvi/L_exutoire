@@ -1,0 +1,38 @@
+header.container-fluid {
+	padding: 0;
+	margin-bottom: 0;
+}
+footer.container-fluid {
+	bottom:0;
+	left:0;
+	padding: 0;
+}
+/* Organisateurs */
+#head_org {
+	padding: 0;
+	margin-bottom: 50px;
+}
+#footer_org {
+	bottom:0;
+	left:0;
+	padding: 0;
+	margin-top: 162px;
+}
+/* Réservation */
+#footer_res {
+	bottom:0;
+	left:0;
+	padding: 0;
+	margin-top: 78px;
+}
+/* Séance */
+#header_sea {
+	padding: 0;
+	margin-bottom: 50px;
+}
+#footer_sea {
+	bottom:0;
+	left:0;
+	padding: 0;
+	margin-top: 160px;
+}

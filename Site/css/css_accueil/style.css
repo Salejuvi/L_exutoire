@@ -1,18 +1,14 @@
 /* Header */
 
+
+
 /* 1er Bandeau */
 
-body {
-    background-image: url(../../images/photofondecranaccueil.png);
-    background-position: sticky;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 #P1 {
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 1920px;
 }
+
 
 /* 2nd bandeau */
 
